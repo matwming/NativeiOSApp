@@ -12,7 +12,8 @@
 		3A1511A023F96A8B003153E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15119F23F96A8B003153E1 /* ViewController.swift */; };
 		3A1511A323F96A8B003153E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A1511A123F96A8B003153E1 /* Main.storyboard */; };
 		3A1511A523F96A8F003153E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A1511A423F96A8F003153E1 /* Assets.xcassets */; };
-		3A1511A823F96A8F003153E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A1511A623F96A8F003153E1 /* LaunchScreen.storyboard */; };
+		3A1511B023F970D9003153E1 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1511AF23F970D9003153E1 /* SearchVC.swift */; };
+		3A1511B223F97127003153E1 /* FavoriteLIstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1511B123F97127003153E1 /* FavoriteLIstVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +23,9 @@
 		3A15119F23F96A8B003153E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A1511A223F96A8B003153E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A1511A423F96A8F003153E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3A1511A723F96A8F003153E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A1511A923F96A8F003153E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A1511AF23F970D9003153E1 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		3A1511B123F97127003153E1 /* FavoriteLIstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteLIstVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +63,9 @@
 				3A15119F23F96A8B003153E1 /* ViewController.swift */,
 				3A1511A123F96A8B003153E1 /* Main.storyboard */,
 				3A1511A423F96A8F003153E1 /* Assets.xcassets */,
-				3A1511A623F96A8F003153E1 /* LaunchScreen.storyboard */,
 				3A1511A923F96A8F003153E1 /* Info.plist */,
+				3A1511AF23F970D9003153E1 /* SearchVC.swift */,
+				3A1511B123F97127003153E1 /* FavoriteLIstVC.swift */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -125,7 +128,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A1511A823F96A8F003153E1 /* LaunchScreen.storyboard in Resources */,
 				3A1511A523F96A8F003153E1 /* Assets.xcassets in Resources */,
 				3A1511A323F96A8B003153E1 /* Main.storyboard in Resources */,
 			);
@@ -138,7 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A1511B023F970D9003153E1 /* SearchVC.swift in Sources */,
 				3A1511A023F96A8B003153E1 /* ViewController.swift in Sources */,
+				3A1511B223F97127003153E1 /* FavoriteLIstVC.swift in Sources */,
 				3A15119C23F96A8B003153E1 /* AppDelegate.swift in Sources */,
 				3A15119E23F96A8B003153E1 /* SceneDelegate.swift in Sources */,
 			);
@@ -153,14 +157,6 @@
 				3A1511A223F96A8B003153E1 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3A1511A623F96A8F003153E1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3A1511A723F96A8F003153E1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -294,7 +290,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mingwu114.com.GHFollowers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +308,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mingwu114.com.GHFollowers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
